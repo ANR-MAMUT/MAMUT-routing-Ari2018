@@ -44,7 +44,7 @@
     "horizon": [0.0, 1700.0],
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "Ari-B8-pA-d80-w0.atf.json.gz",
+        "atf_path": "sidecars/n=30/Ari-B8-pA-d80-w0.atf.json.gz",
         "atf_sha256": "7e3408e86a43af4a351f92b5ce07249a43f447a7c5bd1afe5734cdd51c9939df"
     },
     "metadata": {
