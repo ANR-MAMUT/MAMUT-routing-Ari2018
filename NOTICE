@@ -1,0 +1,11 @@
+MAMUT-routing Ari2018 third-party and data-license notice
+=========================================================
+
+This repository holds the Ari2018 benchmark family of MAMUT-routing (https://github.com/ANR-MAMUT/MAMUT-routing). MAMUT-routing is a mixed software and benchmark project. Its source code is MIT-licensed unless a file says otherwise. Benchmark data and generated artifacts are licensed at the benchmark-family level, and the LICENSE file of this repository gives the terms of this family.
+
+Component licensing
+-------------------
+
+- Ari2018 (TDVRPTW and TDVRP): MAMUT-routing curation artifacts are provided under MIT where MAMUT-routing holds the relevant rights. The underlying benchmark definitions originate from the time-dependent TSPTW generator of the Arigliano et al. lineage.
+
+Users redistributing this benchmark family, or a subset of it, should preserve this NOTICE and the README.md and LICENSE files of this repository.

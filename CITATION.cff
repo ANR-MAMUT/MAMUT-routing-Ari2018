@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-title: MAMUT-routing-TDVRPTW-Ari2018
+title: MAMUT-routing-Ari2018
 type: dataset
 message: >-
-  Cite this metadata for the Ari2018 TDVRPTW adaptation, generated vehicle-routing attributes and benchmark selection. Also cite the Arigliano et al. TD-TSPTW distribution for the underlying data. Record the exact Git commit used.
+  Cite this metadata for the Ari2018 TDVRPTW and TDVRP adaptations, generated vehicle-routing attributes and benchmark selection. Also cite the Arigliano et al. TD-TSPTW distribution for the underlying data. Record the exact Git commit used.
 authors:
   - given-names: Adrien
     family-names: Pichon
@@ -34,7 +34,8 @@ authors:
     family-names: Solnon
     affiliation: INSA Lyon; Inria; CITI
     orcid: "https://orcid.org/0000-0002-0919-496X"
-repository-code: "https://github.com/ANR-MAMUT/MAMUT-routing-TDVRPTW-Ari2018"
-url: "https://github.com/ANR-MAMUT/MAMUT-routing-TDVRPTW-Ari2018"
+repository-code: "https://github.com/ANR-MAMUT/MAMUT-routing-Ari2018"
+url: "https://github.com/ANR-MAMUT/MAMUT-routing-Ari2018"
 abstract: >-
-  This 160-instance TDVRPTW benchmark adapts the Arigliano et al. TD-TSPTW distribution to capacitated multi-vehicle routing. It combines generated demands, capacities, fleet sizes and service times with deterministic selection across the source benchmark parameters and canonical arrival-time functions. The source time windows are retained. The listed authors contribute the routing adaptation, instance selection, validation and benchmark publication. Underlying travel-time data and generator attribution are documented in README.md.
+  This 160-instance benchmark adapts the Arigliano et al. TD-TSPTW distribution to capacitated multi-vehicle routing, in a TDVRPTW and a TDVRP variant. It combines generated demands, capacities, fleet sizes and service times with deterministic selection across the source benchmark parameters and canonical arrival-time functions. The TDVRPTW variant retains the source time windows. In the TDVRP variant, time windows are removed to provide twins of the corresponding TDVRPTW instances. The listed authors contribute the routing adaptation, instance selection, validation and benchmark publication. Underlying travel-time data and generator attribution are documented in README.md.
+license: MIT
