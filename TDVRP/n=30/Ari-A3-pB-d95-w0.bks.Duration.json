@@ -10,9 +10,9 @@
     "cost": 829.900000000001,
     "metadata": {
         "method": "twin-cross-evaluation",
-        "source": "routes of the Duration BKS of the restriction TDVRPTW/Ari2018/n=30/Ari-A3-pB-d95-w0.vrp.json, re-priced on this relaxation by the reference checker",
+        "source": "routes of the Duration BKS of the restriction Ari2018/TDVRPTW/n=30/Ari-A3-pB-d95-w0.vrp.json, re-priced on this relaxation by the reference checker",
         "derived_from": {
-            "instance": "TDVRPTW/Ari2018/n=30/Ari-A3-pB-d95-w0.vrp.json",
+            "instance": "Ari2018/TDVRPTW/n=30/Ari-A3-pB-d95-w0.vrp.json",
             "objective_function": "Duration",
             "cost": 1301.6699371640548,
             "date": "2026-07-08T03:05:19",
