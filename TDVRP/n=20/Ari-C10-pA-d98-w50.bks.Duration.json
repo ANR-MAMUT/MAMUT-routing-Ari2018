@@ -1,0 +1,21 @@
+{
+    "instance_name": "Ari-C10-pA-d98-w50",
+    "routes": [
+        [20],
+        [17, 8, 5, 12],
+        [3, 14, 7, 16, 11, 19, 10, 18, 15, 4, 2, 6],
+        [9, 13, 1]
+    ],
+    "cost": 1134.05,
+    "metadata": {
+        "source": "kayros 0.2.0.dev0 TD-ACO (seed=1010, time_limit=120.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "route_durations": [99.73999999999978, 227.1800000000003, 590.5299999999997, 216.60000000000014],
+        "route_departure_times": [1065.0, 1065.0, 1065.0, 1065.0],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 1134.05,
+        "validated_num_routes": 4,
+        "date": "2026-07-06T05:01:47"
+    },
+    "objective_function": "Duration"
+}

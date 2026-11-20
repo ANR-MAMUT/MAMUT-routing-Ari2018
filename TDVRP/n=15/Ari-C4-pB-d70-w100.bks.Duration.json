@@ -1,0 +1,20 @@
+{
+    "instance_name": "Ari-C4-pB-d70-w100",
+    "routes": [
+        [9, 8, 7, 13],
+        [12, 4, 6, 15, 11, 2, 3, 14, 5, 10],
+        [1]
+    ],
+    "cost": 656.5,
+    "metadata": {
+        "source": "kayros 0.2.0.dev0 TD-ACO (seed=1010, time_limit=120.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "route_durations": [178.22000000000003, 372.58000000000015, 105.69999999999982],
+        "route_departure_times": [1065.0, 1065.0, 1065.0],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 656.5,
+        "validated_num_routes": 3,
+        "date": "2026-07-06T05:01:43"
+    },
+    "objective_function": "Duration"
+}

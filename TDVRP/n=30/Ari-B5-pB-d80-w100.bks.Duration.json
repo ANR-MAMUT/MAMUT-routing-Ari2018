@@ -1,0 +1,22 @@
+{
+    "instance_name": "Ari-B5-pB-d80-w100",
+    "routes": [
+        [5, 3, 15, 19, 20, 29],
+        [11, 25, 6, 30, 21, 1, 10],
+        [14],
+        [17, 27, 13, 18, 4, 22, 2],
+        [28, 12, 26, 9, 24, 8, 7, 16, 23]
+    ],
+    "cost": 1308.6100000000001,
+    "metadata": {
+        "authors": "Florian Rascoussier (0nyr)",
+        "source": "kayros 1.1.2 TD-ILS (seed=123, time_limit=240.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-20T06:29:38",
+        "route_durations": [252.05000000000018, 289.7399999999998, 82.07999999999993, 331.6700000000001, 353.07000000000016],
+        "route_departure_times": [1065.0, 1065.0, 1065.0, 1065.0, 1065.0],
+        "validated_cost": 1308.6100000000001,
+        "validated_num_routes": 5
+    },
+    "objective_function": "Duration"
+}
