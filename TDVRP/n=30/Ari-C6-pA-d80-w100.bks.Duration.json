@@ -3,20 +3,93 @@
     "routes": [
         [2, 23, 20, 16, 7, 26, 12, 29, 22, 6, 21],
         [9, 19, 15, 5, 27, 30, 18, 14],
-        [25, 28, 1, 10, 4],
+        [11],
         [13, 17, 3, 24, 8],
-        [11]
+        [25, 28, 1, 10, 4]
     ],
-    "cost": 1383.289999999999,
+    "cost": 1383.2899999999993,
     "metadata": {
         "source": "kayros 0.2.0.dev0 TD-ACO (seed=42, time_limit=120.0s)",
-        "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [429.8799999999994, 333.8299999999997, 267.2999999999997, 256.9000000000001, 95.38000000000011],
-        "route_departure_times": [1643.8900000000006, 1065.0, 1065.0, 1065.0, 1065.0],
+        "validated_by": "mamut-routing-lib",
+        "route_durations": [429.87999999999965, 333.8299999999997, 95.38000000000011, 256.90000000000015, 267.2999999999997],
+        "route_departure_times": [1065.0, 1065.0, 1065.0, 1065.0, 1065.0],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 1383.289999999999,
+        "validated_cost": 1383.2899999999993,
         "validated_num_routes": 5,
-        "date": "2026-07-06T05:01:57"
+        "date": "2026-07-06T05:01:57",
+        "standard": {
+            "profile": "td-binary64-exact-v1",
+            "objective": "Duration",
+            "num_routes": 5,
+            "routes_sha256": "6493beb713586de3b9bfe78bd813426fb94de50e86dfc27c45c0a3e250cfdadf",
+            "authoritative_cost": {
+                "numerator": "24616182356056672166996871468811",
+                "denominator": "17795388064727341451674910720"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-gmp-compose",
+                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "route_evaluations": [
+                {
+                    "duration": {
+                        "numerator": "945316117096693",
+                        "denominator": "2199023255552"
+                    },
+                    "departure_time": {
+                        "numerator": "1065",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "1468199866801847",
+                        "denominator": "4398046511104"
+                    },
+                    "departure_time": {
+                        "numerator": "1065",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "104871419057275",
+                        "denominator": "1099511627776"
+                    },
+                    "departure_time": {
+                        "numerator": "1065",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "4571635193828456433726701950731",
+                        "denominator": "17795388064727341451674910720"
+                    },
+                    "departure_time": {
+                        "numerator": "1065",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "587798916209049",
+                        "denominator": "2199023255552"
+                    },
+                    "departure_time": {
+                        "numerator": "1065",
+                        "denominator": "1"
+                    }
+                }
+            ],
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "a9d790e661e2a31ff036bc8064903c49f68e3cba7853dc401e4bc3c830b28946"
+        }
     },
     "objective_function": "Duration"
 }

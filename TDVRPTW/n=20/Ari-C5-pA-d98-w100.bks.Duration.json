@@ -3,31 +3,99 @@
     "routes": [
         [1, 3, 5, 4, 6, 7, 9],
         [2],
-        [15, 18, 17, 19, 20],
-        [8, 10, 11, 12, 13, 14, 16]
+        [8, 10, 11, 12, 13, 14, 16],
+        [15, 18, 17, 19, 20]
     ],
     "cost": 2018.1818951596638,
     "metadata": {
         "source": "kayros 0.2.0.dev0 TD-ACO (seed=1010, time_limit=120.0s)",
-        "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [736.2182034976151, 272.03499999999997, 362.55857142857155, 647.3701202334771],
-        "route_departure_times": [27.808823529411768, 54.965, 955.3214285714286, 502.78987976652303],
+        "validated_by": "mamut-routing-lib",
+        "route_durations": [736.2182034976153, 272.03499999999997, 647.370120233477, 362.5585714285715],
+        "route_departure_times": [27.808823529411768, 54.965, 502.78987976652314, 955.3214285714286],
         "authors": "Florian Rascoussier (0nyr)",
         "validated_cost": 2018.1818951596638,
         "validated_num_routes": 4,
         "date": "2026-07-06T05:07:47",
         "optimality": {
-            "proven": true,
-            "prover": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
+            "status": "solver-reported-optimal",
+            "target_profile": "td-fold/1",
+            "solver": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
+            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)",
             "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
-            "date": "2026-08-06",
             "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
-            "proven_optimum": 2018.1818951596638,
-            "dual_bound": 2018.1818951596636,
+            "date": "2026-08-06",
             "wall_time_s": 1.94,
             "time_limit_s": 1800.0,
-            "checker": "mamut-routing-lib td Duration checker",
-            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)"
+            "reported_primal": 2018.1818951596638,
+            "reported_dual": 2018.1818951596636,
+            "evidence": {
+                "path": ".mamut/history/5601928427889ffdf359273faebb11d207aae534965f9b38de9a4837723bfa1a.bks.json",
+                "sha256": "5601928427889ffdf359273faebb11d207aae534965f9b38de9a4837723bfa1a",
+                "scope": "file"
+            }
+        },
+        "standard": {
+            "profile": "td-binary64-exact-v1",
+            "objective": "Duration",
+            "num_routes": 4,
+            "routes_sha256": "82e4709dc8ae9dd576c56bf12d361533237d66553dddbf788d134e9a0d139c46",
+            "authoritative_cost": {
+                "numerator": "615760933055551967724760248535814399925285801747694352073285172369809437313279271780947040415904169924118556072310436953",
+                "denominator": "305106756993693819368525060778572501318954603566600511400435360810519748870109242566771973574507285284206813087006720"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-gmp-compose",
+                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "route_evaluations": [
+                {
+                    "duration": {
+                        "numerator": "210913812282401764985386255837",
+                        "denominator": "286482745577867194486751232"
+                    },
+                    "departure_time": {
+                        "numerator": "489217997205745",
+                        "denominator": "17592186044416"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "34080417481004442716171717633471",
+                        "denominator": "125279531975681243802228490240"
+                    },
+                    "departure_time": {
+                        "numerator": "38678180237253019",
+                        "denominator": "703687441776640"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "3523312276046637229839672061847319303338407383535117190634640010975321218896031",
+                        "denominator": "5442500612749841957445113416762215812897288087296000341383770519396455284736"
+                    },
+                    "departure_time": {
+                        "numerator": "9955089731060875934158291921800317131231663631654628591015907148723",
+                        "denominator": "19799701886767586829392215501728845312381192660890520860934959344"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "41046106920656465881943930075",
+                        "denominator": "113212347342732874106273792"
+                    },
+                    "departure_time": {
+                        "numerator": "108154181395384346601155784945",
+                        "denominator": "113212347342732874106273792"
+                    }
+                }
+            ],
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "637a311267299df00004e1288a970fbc45a63c8dc317ffef85cbab831b9486dd"
         }
     },
     "objective_function": "Duration"

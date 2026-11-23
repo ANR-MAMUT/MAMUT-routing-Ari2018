@@ -1,20 +1,73 @@
 {
     "instance_name": "Ari-C3-pB-d80-w25",
     "routes": [
-        [4, 6, 3, 8, 11, 15, 5, 13, 14, 9],
         [1, 2, 7, 12],
+        [4, 6, 3, 8, 11, 15, 5, 13, 14, 9],
         [10]
     ],
     "cost": 1150.3020522379431,
     "metadata": {
         "source": "kayros 0.0.1.dev0 TD-ACO (seed=2718, time_limit=120.0s)",
-        "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [571.0704516247249, 477.51345389507156, 101.71814671814673],
-        "route_departure_times": [35.497220294298415, 0.0, 630.4826254826255],
+        "validated_by": "mamut-routing-lib",
+        "route_durations": [477.51345389507156, 571.0704516247248, 101.71814671814673],
+        "route_departure_times": [0.0, 35.49722029429844, 630.4826254826255],
         "authors": "Florian Rascoussier (0nyr)",
         "validated_cost": 1150.3020522379431,
         "validated_num_routes": 3,
-        "date": "2026-07-04T21:41:28"
+        "date": "2026-07-04T21:41:28",
+        "standard": {
+            "profile": "td-binary64-exact-v1",
+            "objective": "Duration",
+            "num_routes": 3,
+            "routes_sha256": "e1d4e18cf72740226e57580db8d72d468038d785c7cefbb5de1680e9c5be79f5",
+            "authoritative_cost": {
+                "numerator": "323324826334973285096749832639216789044175289319239900952860586984717502547190550600256288711132287782100735235849513773583043830408174096876051845133418982117716998435221978565395099",
+                "denominator": "281078196553623699908352250491656779194784910156875303511944101551060417122375595354701197935016190153674266036065189426167183747344646125669933604286816881369535526999570566348800"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-gmp-compose",
+                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "route_evaluations": [
+                {
+                    "duration": {
+                        "numerator": "407081063232130398302941063544994522751788124390711479041",
+                        "denominator": "852501767042530432543848964285771923094887055176499200"
+                    },
+                    "departure_time": {
+                        "numerator": "0",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "81981634437580343058297551384384210570881251785136952617510699284863648446750237105623883401481340840415777504486647081641120304848346058282453",
+                        "denominator": "143557829343714734348189324682442439234516691452104141019456560299551035487847211080105679469554570795295029470533307659790511772440612306944"
+                    },
+                    "departure_time": {
+                        "numerator": "3150205498981850725524471987548849133104955901382009380109492921763493196034594663446211600363809166774574991182269",
+                        "denominator": "88745131952989468285006098429023787744952421347423273857629268967222451518571061696759950384087092270796206243840"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "223680570144855",
+                        "denominator": "2199023255552"
+                    },
+                    "departure_time": {
+                        "numerator": "2772891911315551",
+                        "denominator": "4398046511104"
+                    }
+                }
+            ],
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "99a63fd2262d1cde7718de4708b00be93b22eff2a85d6ab4b746855ca797f5b8"
+        }
     },
     "objective_function": "Duration"
 }

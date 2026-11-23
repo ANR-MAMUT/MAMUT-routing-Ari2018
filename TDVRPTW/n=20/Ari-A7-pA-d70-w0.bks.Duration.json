@@ -9,13 +9,76 @@
     "cost": 1394.4887190635482,
     "metadata": {
         "source": "kayros 0.2.0.dev0 TD-ACO (seed=1010, time_limit=120.0s)",
-        "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [420.9575220183329, 381.8041416478936, 423.3245553973218, 168.4025],
+        "validated_by": "mamut-routing-lib",
+        "route_durations": [420.95752201833284, 381.80414164789363, 423.3245553973218, 168.4025],
         "route_departure_times": [0.0, 0.0, 0.0, 0.0],
         "authors": "Florian Rascoussier (0nyr)",
         "validated_cost": 1394.4887190635482,
         "validated_num_routes": 4,
-        "date": "2026-07-06T05:07:45"
+        "date": "2026-07-06T05:07:45",
+        "standard": {
+            "profile": "td-binary64-exact-v1",
+            "objective": "Duration",
+            "num_routes": 4,
+            "routes_sha256": "cacd17ac203c8f78bcf8e82b05b66ccda95ac862803572b9f98e6300734e04e4",
+            "authoritative_cost": {
+                "numerator": "158935290665974844569923064811290169639065174523310704187235621797515259347670119714640296764857941698494214471718165702417595150027914348436081942729737966324153895199063347200966359284858645751939253794182532805959882261976966179861",
+                "denominator": "113973880529278061470640984350359589295455336523697395774581357444548425211914439591873393309925295270705277720991082327745141319982495295042265649148863631245239568270558724410837331986062369033730827569578344120734451985295605760"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-gmp-compose",
+                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "route_evaluations": [
+                {
+                    "duration": {
+                        "numerator": "30260473798197254168435038486814450604965744656527883460325513206820784241591634499407419",
+                        "denominator": "71884862997838054135839354874427320614683222299916363943207744539227755981776407756800"
+                    },
+                    "departure_time": {
+                        "numerator": "0",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "15459749154218908168232316040766623887247579759502897935115613564338867370331756629667",
+                        "denominator": "40491308154734885542293023256911660867822608278866740933295506206533160001037402112"
+                    },
+                    "departure_time": {
+                        "numerator": "0",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "331764688687558591391731360420483607953798710836481837193708924703584364292078805131",
+                        "denominator": "783712365506821652011459020006128199790318062425848220336575642236202991275212800"
+                    },
+                    "departure_time": {
+                        "numerator": "0",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "116179141582147590",
+                        "denominator": "689889648800627"
+                    },
+                    "departure_time": {
+                        "numerator": "0",
+                        "denominator": "1"
+                    }
+                }
+            ],
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "9a8b6326572a740d10470b4b86868770461f853b5ca9a516b5a1dc23469f444e"
+        }
     },
     "objective_function": "Duration"
 }

@@ -1,0 +1,35 @@
+{
+    "instance_name": "Ari-B2-pB-d98-w100",
+    "routes": [
+        [1, 2, 4, 7],
+        [3, 5, 6, 8, 9, 11, 13, 14, 15],
+        [10, 12, 16, 17, 18, 19, 20, 24, 23],
+        [21, 22, 26, 28, 27],
+        [25, 30, 29]
+    ],
+    "cost": 2635.6651583994094,
+    "metadata": {
+        "source": "kayros 0.2.0.dev0 TD-ACO (seed=456, time_limit=120.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "route_durations": [404.54816602316606, 829.0937491329997, 813.7907335907337, 351.21250965250965, 237.01999999999998],
+        "route_departure_times": [1.430405405405411, 46.97515570934258, 361.65791505791503, 912.9474903474904, 1080.98],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 2635.6651583994094,
+        "validated_num_routes": 5,
+        "date": "2026-07-06T05:07:53",
+        "optimality": {
+            "proven": true,
+            "prover": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
+            "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
+            "date": "2026-08-06",
+            "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
+            "proven_optimum": 2635.6651583994094,
+            "dual_bound": 2635.6651583993894,
+            "wall_time_s": 453.23,
+            "time_limit_s": 1800.0,
+            "checker": "mamut-routing-lib td Duration checker",
+            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)"
+        }
+    },
+    "objective_function": "Duration"
+}

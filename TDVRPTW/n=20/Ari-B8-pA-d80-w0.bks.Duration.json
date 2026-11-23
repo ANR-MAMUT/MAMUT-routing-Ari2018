@@ -1,21 +1,84 @@
 {
     "instance_name": "Ari-B8-pA-d80-w0",
     "routes": [
-        [11, 13, 20, 15],
-        [9, 2, 5, 14, 18, 6, 8],
         [4],
+        [9, 2, 5, 14, 18, 6, 8],
+        [11, 13, 20, 15],
         [19, 10, 1, 16, 3, 17, 12, 7]
     ],
     "cost": 1256.825347138347,
     "metadata": {
         "source": "kayros 0.2.0.dev0 TD-ACO (seed=1010, time_limit=120.0s)",
-        "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [293.02968243078715, 430.1268650334827, 119.6111111111111, 414.0576885629661],
-        "route_departure_times": [600.0, 0.0, 0.0, 0.7137400084624169],
+        "validated_by": "mamut-routing-lib",
+        "route_durations": [119.6111111111111, 430.1268650334827, 293.02968243078726, 414.0576885629661],
+        "route_departure_times": [0.0, 0.0, 600.0, 0.713740008462446],
         "authors": "Florian Rascoussier (0nyr)",
         "validated_cost": 1256.825347138347,
         "validated_num_routes": 4,
-        "date": "2026-07-06T05:07:47"
+        "date": "2026-07-06T05:07:47",
+        "standard": {
+            "profile": "td-binary64-exact-v1",
+            "objective": "Duration",
+            "num_routes": 4,
+            "routes_sha256": "40d3be5730f8cd2e1c120406359f39407d7aea000c266fd66b12db27efed0287",
+            "authoritative_cost": {
+                "numerator": "207429872549673773626752295730728218801527770985709790501321182797495794756870165871550492162945186249489275511430872371278829418376380954006440279845662764694788205341301723941271473277147811",
+                "denominator": "165042718960091584186037200124697069419468464447122337771696558668640063995797502974721527057450572854791304502049002775175050520538492785906044859265451767242086767973940087434008193925120"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-gmp-compose",
+                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "route_evaluations": [
+                {
+                    "duration": {
+                        "numerator": "5330569809162846776447560773359",
+                        "denominator": "44565841414273689896368472064"
+                    },
+                    "departure_time": {
+                        "numerator": "0",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "1746949025685813639669423599165987260601023796915435547432880141270557176737318902815",
+                        "denominator": "4061473875968720327544984375118347736344477283313092334215745717019211068308717568"
+                    },
+                    "departure_time": {
+                        "numerator": "0",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "35851462173943198931013135317705987023188028747459413757903",
+                        "denominator": "122347544714727693495162836794365681532084057491332136960"
+                    },
+                    "departure_time": {
+                        "numerator": "600",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "34338367911021885848987675133050574615785863352323574960920865442092199345381992297285",
+                        "denominator": "82931361642376607182210732120584822218087232031670494887528787661839724028245311488"
+                    },
+                    "departure_time": {
+                        "numerator": "59191430760432045995669069909327730756873900034017331179275148098442009384151944379",
+                        "denominator": "82931361642376607182210732120584822218087232031670494887528787661839724028245311488"
+                    }
+                }
+            ],
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "697436ebbb1ac712919363cadd71524f14b43b918eb7e928a518c6841ab9f164"
+        }
     },
     "objective_function": "Duration"
 }

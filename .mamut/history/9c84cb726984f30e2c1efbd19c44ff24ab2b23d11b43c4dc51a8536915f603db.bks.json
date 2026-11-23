@@ -1,0 +1,33 @@
+{
+    "instance_name": "Ari-C4-pB-d70-w100",
+    "routes": [
+        [1],
+        [2, 3, 4, 5, 6, 7, 8],
+        [9, 10, 11, 12, 13, 14, 15]
+    ],
+    "cost": 1346.4817532041247,
+    "metadata": {
+        "source": "kayros 0.3.0 lera BPC exact solve (HiGHS backend, TL 600s, warm-started from the previous best-known solution)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "route_durations": [120.41378378378378, 603.0269833884525, 623.0409860318885],
+        "route_departure_times": [0.0, 4.554054054054064, 353.74659566745805],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 1346.4817532041247,
+        "validated_num_routes": 3,
+        "date": "2026-07-07T10:29:36",
+        "optimality": {
+            "proven": true,
+            "prover": "kayros 1.5.1 lera branch-price-and-cut (HiGHS backend; campaign build commit df05a37, behavior-identical to release v1.5.1)",
+            "certificate": "Optimal under checker-exact route costs and standard LP/pricing tolerances. Certified by four independent solves (cold and warm starts x asymmetric and symmetric labeling modes) agreeing on the value, each with an audited exact-pricing phase and zero checker-infeasible priced columns.",
+            "date": "2026-08-06",
+            "arithmetic": "checker-exact route costs (IEEE-754 doubles, canonical route order); the proven optimum equals compute_solution_cost of the stored routes bit-exactly",
+            "proven_optimum": 1346.4817532041247,
+            "dual_bound": 1346.4817532040304,
+            "wall_time_s": 9.87,
+            "time_limit_s": 1800.0,
+            "checker": "mamut-routing-lib td Duration checker",
+            "campaign": "2026-08-06 full TD re-certification on Grid'5000 abaca (job 6830467 + memory retry 6830998)"
+        }
+    },
+    "objective_function": "Duration"
+}

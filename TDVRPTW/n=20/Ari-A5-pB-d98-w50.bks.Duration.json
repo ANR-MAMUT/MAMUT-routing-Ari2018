@@ -10,12 +10,75 @@
     "metadata": {
         "authors": "Florian Rascoussier (0nyr)",
         "source": "kayros 0.4.0.dev0 TD-ILS (seed=123, time_limit=120.0s)",
-        "validated_by": "mamut-routing-lib td Duration checker",
+        "validated_by": "mamut-routing-lib",
         "date": "2026-07-08T03:05:17",
-        "route_durations": [481.9134844034941, 439.6810309844025, 392.54302380137045, 373.97928185328186],
-        "route_departure_times": [0.0, 5.050191891891911, 30.0, 43.80643243243244],
+        "route_durations": [481.9134844034942, 439.68103098440247, 392.5430238013704, 373.97928185328186],
+        "route_departure_times": [0.0, 5.050191891891911, 30.0, 43.80643243243243],
         "validated_cost": 1688.116821042549,
-        "validated_num_routes": 4
+        "validated_num_routes": 4,
+        "standard": {
+            "profile": "td-binary64-exact-v1",
+            "objective": "Duration",
+            "num_routes": 4,
+            "routes_sha256": "c33abfac55c81d48a002bf6058d5a424a579368af4e5966370246950583aa812",
+            "authoritative_cost": {
+                "numerator": "25226485492354404362286280964726342160683362510573906384227449110395903491141828906781598006344032298134706689417605374418527093937431846488723527265893083080552605482758872499793576941784139101454931699501831687",
+                "denominator": "14943566214081680474053254546667634261964151426913550902818503590040697842435782003517650541485894124310251594354807026999930714319893377612089208288356452810405448859999604275977230636944936948349044229406720"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-gmp-compose",
+                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "route_evaluations": [
+                {
+                    "duration": {
+                        "numerator": "1758763326372790070018950817280100169861207547614284990322134317613472897",
+                        "denominator": "3649541636191738457936834546923998351167559244467855144361637714067456"
+                    },
+                    "departure_time": {
+                        "numerator": "0",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "74384999823742256726035936652841018561447472373",
+                        "denominator": "169179460976975915886708022461363521794867200"
+                    },
+                    "departure_time": {
+                        "numerator": "13616741253415374392948738844931",
+                        "denominator": "2696281952231769123566754201600"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "5580264345066067831107283704738169982080660246319533405937939813273506396956698612692157",
+                        "denominator": "14215675751990237804978529435206134076556836159440232350989958862336547419422143283200"
+                    },
+                    "departure_time": {
+                        "numerator": "30",
+                        "denominator": "1"
+                    }
+                },
+                {
+                    "duration": {
+                        "numerator": "171847886630096372233093271658347994283384844975102784998743",
+                        "denominator": "459511783055177620749770756100431481885876821633726939136"
+                    },
+                    "departure_time": {
+                        "numerator": "20129571876313188590118702703581652472540648750713731238355",
+                        "denominator": "459511783055177620749770756100431481885876821633726939136"
+                    }
+                }
+            ],
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "3e16b2eada6f031c6472c0be11f7be24f83508a99491d1cb2da35d477da79756"
+        }
     },
     "objective_function": "Duration"
 }
