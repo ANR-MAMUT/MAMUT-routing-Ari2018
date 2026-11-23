@@ -1,0 +1,36 @@
+{
+  "benchmark_revision": "r1",
+  "default_profile": "td-binary64-exact-v1",
+  "family": "Ari2018",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits",
+    "time-dependent-travel"
+  ],
+  "instance": {
+    "path": "TDVRP/n=40/Ari-A9-pA-d95-w25.vrp.json",
+    "sha256": "c4139b263fd333a66bc0be137d2cfc7cb0d1688b644c9acb172fbad4588c5cea"
+  },
+  "instance_name": "Ari-A9-pA-d95-w25",
+  "materialization": {
+    "atf_stream_sha256": "82e0e40e178849c4b1d37922933ec18b894f80b27142c4af8a3c5108330cb999",
+    "canonical_atf_sha256": "762d3cfbf54c7836d41153cc019740104b209be1d73b55ab0b852e72972cfbeb",
+    "interpretation": "binary64",
+    "kind": "stored-atf"
+  },
+  "objective": "Duration",
+  "problem": "TDVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/n=40/Ari-A9-pA-d95-w25.atf.json.gz",
+      "scope": "decompressed",
+      "sha256": "762d3cfbf54c7836d41153cc019740104b209be1d73b55ab0b852e72972cfbeb"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "Ari2018 benchmark time unit",
+    "time": "Ari2018 benchmark time unit"
+  }
+}
