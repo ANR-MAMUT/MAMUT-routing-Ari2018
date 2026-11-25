@@ -28,7 +28,7 @@
       "sha256": "7b25429b9203e792fbeea57fb2a88abe744ae7261d57e48f61a7e6eeaf4c937a"
     }
   ],
-  "specification": "mamut-routing/0.1-review",
+  "specification": "mamut-routing/0.1",
   "units": {
     "cost": "Ari2018 benchmark time unit",
     "time": "Ari2018 benchmark time unit"
